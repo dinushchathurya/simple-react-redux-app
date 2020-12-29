@@ -1,9 +1,15 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+
+import styles from './styles.css';
 
 const Balance = () => {
+
+    const store = useSelector((state) => state);
+    
     return (
-        <div>
-            <h2>Balance</h2>
+        <div className="balance_container">
+           <h2>${store}</h2>
         </div>
     )
 }
