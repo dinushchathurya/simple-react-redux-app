@@ -1,0 +1,36 @@
+.control_buttons {
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.main_header {
+    display:flex;
+    justify-content: center;
+    background: rgb(123, 8, 158);
+}
+
+.main_header h1{
+    color: rgb(236, 114, 14);
+    text-emphasis: bold;
+}
+
+.balance_container {
+    display:flex;
+    justify-content: center;
+    background-color: #0f7be0;
+    height:100px;
+}
+
+.form-group {
+    margin-top: 25px;
+}
+
+.form-group input {
+    width: 200px;
+    margin-left: 512px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
